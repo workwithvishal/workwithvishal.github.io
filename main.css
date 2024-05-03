@@ -241,6 +241,7 @@ section:nth-child(2n + 1) {
     text-align: right;
 }
 
+
 .timeline-box::after {
     content: '';
     position: absolute;
@@ -303,6 +304,7 @@ section:nth-child(2n + 1) {
 
 .experience-designation {
     font-size: 1.4rem;
+   
 }
 
 .experience-company-name {
@@ -310,6 +312,7 @@ section:nth-child(2n + 1) {
     color: #eb822d;
     font-weight: 400;
     font-size: 1.2rem;
+    
 }
 
 .experience-duration {
@@ -317,6 +320,7 @@ section:nth-child(2n + 1) {
     font-weight: 100;
     color: grey;
     font-size: 1rem;
+    
 }
 
 .experience-description {
@@ -324,8 +328,11 @@ section:nth-child(2n + 1) {
     padding: 2px;
     color: grey;
     line-height: 20px;
+   
 }
-
+/* .education-section{
+    width: auto;
+} */
 
 
 
@@ -577,4 +584,17 @@ button:focus {
     height: inherit;
     width: 40%;
 }
-
+.timeline-box-education{
+    padding: 5px;
+    width: 40%;
+    min-height: 150px;
+    position: relative;
+    left: 18%;
+    
+    text-align: right;
+}
+/* .education-section{
+   width: auto;
+   position: relative;
+   width: 75%;
+} */
